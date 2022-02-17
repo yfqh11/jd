@@ -16,7 +16,7 @@
       <div class="header">
         <h3>BW的CK自助登录提交</h3>
       </div>
-      <div class="alert alert-primary" role="alert" id="info">我是公告</div>
+      <div class="alert alert-primary" role="alert" id="info"><h1 style=\"color:red;\">为了您的财产安全，请关闭京东免密支付！<\/h1><p style=\"color:#ffb120;\">（京东-设置-支付设置-支付验证设置）<\/p><p style=\"color:#18ff44;\"><\/p><p style=\"color:#8000短信登录须知！！！<\/p> <p style=\"color:#008080;\">机器人QQ：109629272<\/p> <p style=\"color:#4169E1;\">0;\登录后点击[获取cookie]然后[提交]或者复制发送给机器人。<\/p><p><a style=\"    display: block;     text-decoration: none;     background: #4080ff;     color: #f9f9f9;     padding: 12px;     border: none;     border-radius: 25px;     margin-top: 30px;     font-size: 16px;     font-weight: 700;     min-width: 200px;     transition: 0.2s;\" href=\"http://wpa.qq.com/msgrd?v=3&uin=109629272&site=qq&menu=yes\" target=\"_blank\" >点击添加机器人<\/a><\/p><p style=\"color:#F08080;\">机器人添加后发送[查询]来查看个人信息<\/p></div>
       <form class="myForm">
         <div class="form-group">
           <label for="phone" class="text-left">手机号:</label>
@@ -96,7 +96,7 @@
       }).then((data) => {
         if (data.ok) {
           $.message({
-            message: "获取cooke成功",
+            message: "获取cookie成功",
           });
           $("#cookie").val(data.data.ck);
         } else {
